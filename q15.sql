@@ -4,4 +4,4 @@
 ## en la tabla tbl1, para aquellos registros con c13 mayor
 ## a 400.
 ##
-
+SELECT K0, AVG(c12) FROM tbl1 WHERE c13 > 400 GROUP BY K0;
